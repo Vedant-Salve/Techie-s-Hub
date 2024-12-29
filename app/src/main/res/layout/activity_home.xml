@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/appdevcardView"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="#03A9F4"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/AppDev"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/webdevcardView"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="#04FB0E"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="10dp"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/WebDev"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/iosappdevcardView"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FAE004"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/IOSDev"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/mlcardView"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FA1403"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/ML"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/blockchaincardView"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="#D704FB"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/Blockchain"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cybersecuritycardView"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="#FF9800"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="10dp"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Cyber Security"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/messagebutton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
+            android:contentDescription="messagebutton"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mail_icon"
+            app:layout_constraintEnd_toStartOf="@+id/callbutton"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/callbutton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/white"
+            android:contentDescription="callbutton"
+            android:scaleType="centerCrop"
+            android:src="@drawable/call_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
+</ScrollView>

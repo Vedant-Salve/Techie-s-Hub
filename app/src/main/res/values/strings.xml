@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Techie\'s Hub</string>
+    <string name="AppDev">Android App Dev</string>
+    <string name="WebDev">Web Dev</string>
+    <string name="IOSDev">IOS App Dev</string>
+    <string name="ML">Machine Learning</string>
+    <string name="Blockchain">Blockchain</string>
+    <string name="CyberSecurity">Cyber Security</string>
+</resources>
